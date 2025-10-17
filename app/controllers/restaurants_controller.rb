@@ -5,7 +5,7 @@ class RestaurantsController < ApplicationController
   end
 
   def new
-    @restaunt = Restaurant.new
+    @restaurant = Restaurant.new
   end
 
   def create
